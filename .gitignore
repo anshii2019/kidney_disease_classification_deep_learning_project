@@ -127,6 +127,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+kidenv/
 
 # Spyder project settings
 .spyderproject
