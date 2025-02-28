@@ -2,9 +2,18 @@ from src.cnnClassifier import logger
 from src.cnnClassifier.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from src.cnnClassifier.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
 from src.cnnClassifier.pipeline.stage_03_model_training import ModelTrainingPipeline 
-import sys
-import os
+from src.cnnClassifier.pipeline.stage_04_model_evaluation import EvaluationPipeline  
 
+
+
+
+
+#import mlflow
+#import dagshub
+
+#dagshub.init(repo_owner='anshii2019', repo_name='kidney_disease_classification_deep_learning_project', mlflow=True)
+#mlflow.set_tracking_uri("https://dagshub.com/anshii2019/kidney_disease_classification_deep_learning_project.mlflow")
+ 
 
 
 
